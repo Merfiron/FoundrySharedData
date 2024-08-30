@@ -2,25 +2,14 @@
   "id": "SharedData",
   "name": "Shared Data",
   "title": "Shared Data",
-  "description": "Sharing data across worlds",
-  "version": "1.0.0",
+  "description": "All the non-SRD content that I have added into Foundry.",
+  "version": "2.0.0",
   "author": "Aiden Gocon",
   "compatibility": {
     "minimum": "10.288",
     "verified": "10.288"
   },
   "packs": [
-    {
-      "name": "classes",
-      "label": "Classes",
-      "path": "packs/classes",
-      "type": "Item",
-      "system": "dnd5e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
     {
       "name": "backgrounds",
       "label": "Backgrounds",
@@ -33,6 +22,28 @@
       }
     },
     {
+      "name": "classes",
+      "label": "Classes",
+      "path": "packs/classes",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "feats",
+      "label": "Feats",
+      "path": "packs/feats",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
+    },
+    {
       "name": "items",
       "label": "Items",
       "path": "packs/items",
@@ -40,6 +51,28 @@
       "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "journals",
+      "label": "Journals",
+      "path": "packs/journals",
+      "type": "JournalEntry",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "miscellanious",
+      "label": "Miscellanious",
+      "path": "packs/miscellanious",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "NONE",
         "ASSISTANT": "OWNER"
       }
     },
@@ -77,6 +110,17 @@
       }
     },
     {
+      "name": "racial-features",
+      "label": "Racial Features",
+      "path": "packs/racial-features",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
       "name": "scenes",
       "label": "Scenes",
       "path": "packs/scenes",
@@ -97,28 +141,6 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       }
-    },
-    {
-      "name": "racial-features",
-      "label": "Racial Features",
-      "path": "packs/racial-features",
-      "type": "Item",
-      "system": "dnd5e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "feats",
-      "label": "Feats",
-      "path": "packs/feats",
-      "type": "Item",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e"
     }
   ]
 }
